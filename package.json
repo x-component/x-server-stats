@@ -10,5 +10,11 @@
   "main": "stats.js",
   "scripts": {
     "prepublish": "markdox -o ./README.md ./stats.js"
-  }
+  },
+  "keywords": [
+      "x-x",
+      "x-component",
+      "x-server",
+      "monitor"
+  ]
 }

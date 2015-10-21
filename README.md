@@ -1,6 +1,6 @@
 
 
-<!-- Start ./stats.js -->
+<!-- Start stats.js -->
 
 ## x
 
@@ -8,11 +8,13 @@ Prepars some statistics information about the node.js runtime environment.
 It is filled by the middleware log
 at the end of the request handling.
 
+## request(r)
+
 Calculates statistics
 
-### Params: 
+### Params:
 
-* **r** *an* object with some HTTP request information.
+* *r* an object with some HTTP request information.
 
-<!-- End ./stats.js -->
+<!-- End stats.js -->
 
