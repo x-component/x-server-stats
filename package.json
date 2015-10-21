@@ -1,6 +1,6 @@
 {
   "name": "x-server-stats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "x-common": "latest"
   },
@@ -12,9 +12,9 @@
     "prepublish": "markdox -o ./README.md ./stats.js"
   },
   "keywords": [
-      "x-x",
-      "x-component",
-      "x-server",
-      "monitor"
+    "x-x",
+    "x-component",
+    "x-server",
+    "monitor"
   ]
 }
