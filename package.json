@@ -1,14 +1,14 @@
 {
-	"name"    : "x-server-stats",
-	"version" : "0.0.0",
-	"dependencies" : {
-		"x-common"   : "latest"
-	},
-	"devDependencies":{
-		"markdox" : "latest"
-	},
-	"main" : "stats.js",
-	"scripts": {
-		"prepublish" : "markdox -o ./README.md ./stats.js"
-	}
+  "name": "x-server-stats",
+  "version": "0.0.1",
+  "dependencies": {
+    "x-common": "latest"
+  },
+  "devDependencies": {
+    "markdox": "latest"
+  },
+  "main": "stats.js",
+  "scripts": {
+    "prepublish": "markdox -o ./README.md ./stats.js"
+  }
 }
