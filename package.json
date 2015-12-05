@@ -1,20 +1,20 @@
 {
   "name": "x-server-stats",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "dependencies": {
-    "x-common": "latest"
+    "x-common": "1.x.x"
   },
   "devDependencies": {
-    "markdox": "latest"
+	"x-publish": "1.x.x"
   },
   "main": "stats.js",
   "scripts": {
-    "prepublish": "markdox -o ./README.md ./stats.js"
+	"prepublish": "./node_modules/x-publish/scripts/prepublish.sh"
   },
   "keywords": [
     "x-x",
     "x-component",
     "x-server",
-    "monitor"
+    "stats"
   ]
 }
